@@ -1,0 +1,15 @@
+﻿{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "AdminLogin": {
+            "value": "SSAdmin"
+        },
+        "AdminLoginPassword": {
+            "value": "Susan0camb"
+        },
+        "DBServerName": {
+            "value": "socamb001"
+        }
+    }
+}
