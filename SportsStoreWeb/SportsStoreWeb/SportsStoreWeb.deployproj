@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>507987d7-b4d0-4d00-aa0a-f35509ba13ef</ProjectGuid>
+    <ProjectGuid>0c65ad9e-1a10-47b2-bf3e-3ca56fcbfe4f</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup>
     <TargetFrameworkIdentifier>Deployment</TargetFrameworkIdentifier>
