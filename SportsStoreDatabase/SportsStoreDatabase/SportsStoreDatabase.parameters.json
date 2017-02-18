@@ -2,14 +2,16 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "AdminLogin": {
-            "value": "SSAdmin"
-        },
-        "AdminLoginPassword": {
-            "value": "Susan0camb"
-        },
+      "AdminLogin": {
+        "value": "SSAdmin"
+      },
+      // Password is set in each release pipeline
+      "AdminLoginPassword": {
+        "value": "PasswordTBD"
+      },
+      // Server Name is set in each release pipeline
         "DBServerName": {
-            "value": "socamb001"
+            "value": "ServerNameTBD"
         }
     }
 }

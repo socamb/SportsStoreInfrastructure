@@ -1,7 +1,7 @@
 ﻿{
   //
-  // Provisions a database with a single database for Sports Store. 
-  // THis scripts will be used in all environments required to deliver Sports Store
+  // Provisions a database server with a single database for Sports Store. 
+  // This scripts is be used in all environments required to deliver Sports Store.
 
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
