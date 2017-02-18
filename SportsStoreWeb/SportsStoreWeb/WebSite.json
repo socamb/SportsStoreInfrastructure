@@ -117,7 +117,7 @@
             "[concat('Microsoft.Web/sites/', parameters('webSiteName'))]"
           ],
           "properties": {
-            "FideliTradeMembership": {
+            "SportsStoreDB": {
               // This allows us to set the db credientials in the release pipeline
               "value": "[concat(parameters('SportsStoreConnection'), parameters('DBLogin'),';Password=', parameters('DBLoginPassword'))]",
               "type": "SQLServer"
