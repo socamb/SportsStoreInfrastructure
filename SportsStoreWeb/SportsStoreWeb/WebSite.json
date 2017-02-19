@@ -14,7 +14,7 @@
       "type": "string",
       "minLength": 1
     },
-    "DBServerName": {
+    "DBServerFullName": {
       "type": "string",
       "defaultValue": "DBServerTBD"
     },
@@ -122,7 +122,7 @@
           "properties": {
             "SportsStoreDB": {
               // This allows us to set the db credientials in the release pipeline
-              "value": "[concat('Data Source=', parameters('DatabaseName'),';Initial Catalog=', parameters('DatabaseName'), ';User ID=',parameters('DBLogin'),';Password=', parameters('DBLoginPassword'))]",
+              "value": "[concat('Data Source=', parameters('DBServerFullName'),';Initial Catalog=', parameters('DatabaseName'), ';User ID=',parameters('DBLogin'),';Password=', parameters('DBLoginPassword'))]",
               "type": "SQLServer"
             }
 
