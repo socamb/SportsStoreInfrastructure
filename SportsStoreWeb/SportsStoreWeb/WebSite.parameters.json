@@ -7,10 +7,6 @@
         },
         "WebSiteName": {
             "value": "Ocambss01"
-        },
-      "SportsStoreConnection": {
-        // Server=tcp:ocamb-sstore.database.windows.net,1433;Database=SStoreBuild;User ID-
-        "value": "ocamb-sstore.database.windows.net,1433;Database=SStoreBuild;User ID-"
-      }
+        }
     }
 }

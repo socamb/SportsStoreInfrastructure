@@ -14,6 +14,14 @@
       "type": "string",
       "minLength": 1
     },
+    "DBServerName": {
+      "type": "string",
+      "defaultValue": "DBServerTBD"
+    },
+    "DatabaseName": {
+      "type": "string",
+      "defaultValue": "DatabaseNameTBD"
+    },
     "DBLogin": {
       "type": "string",
       "defaultValue": "DBLoginTBD"
@@ -21,11 +29,6 @@
     "DBLoginPassword": {
       "type": "string",
       "defaultValue": "DBPwdTBD"
-    },
-  
-    "SportsStoreConnection": {
-      "type": "string",
-      "minLength": 1
     },
     "skuName": {
       "type": "string",
@@ -119,7 +122,7 @@
           "properties": {
             "SportsStoreDB": {
               // This allows us to set the db credientials in the release pipeline
-              "value": "[concat(parameters('SportsStoreConnection'), parameters('DBLogin'),';Password=', parameters('DBLoginPassword'))]",
+              "value": "[concat('Data Source=', parameters('DatabaseName'),';Initial Catalog=', parameters('DatabaseName'), ';User ID=',parameters('DBLogin'),';Password=', parameters('DBLoginPassword'))]",
               "type": "SQLServer"
             }
 
