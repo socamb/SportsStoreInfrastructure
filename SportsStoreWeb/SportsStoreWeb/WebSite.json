@@ -1,13 +1,16 @@
 {
-  // This defines the website for Authentication. This is the login screen users use when accessing FTI's applications
-  // There is a parameters file for each environment. 
+  // This defines the website for the Sports Store Website.
+  // There is a parameters file for each environment. Some of the parameters are set in the Release Pipeline.
 
 
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
+
+    // This is set in the release pipeline.
     "HostingPlanName": {
       "type": "string",
+      "defaultValue": "OcambSportsStore01",
       "minLength": 1
     },
     "WebSiteName": {
