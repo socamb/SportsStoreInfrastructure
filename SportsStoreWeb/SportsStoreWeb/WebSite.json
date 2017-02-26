@@ -13,10 +13,15 @@
       "defaultValue": "OcambSportsStore01",
       "minLength": 1
     },
+    // This is set in the Release Pipeline
     "WebSiteName": {
       "type": "string",
+      "defaultValue": "OOcambss01",
       "minLength": 1
     },
+
+    // These parms are used to construct the connection string. Values are set in the Release Pipeline
+    // Database credientials are encrypted in the Release Pipeline.
     "DBServerFullName": {
       "type": "string",
       "defaultValue": "DBServerTBD"
@@ -29,10 +34,15 @@
       "type": "string",
       "defaultValue": "DBLoginTBD"
     },
+
+    // This is encrypted in the Release Pipeline.
     "DBLoginPassword": {
       "type": "string",
       "defaultValue": "DBPwdTBD"
     },
+
+    // These parms are set in parametert files for each environment. The Release pileline selects the proper
+    // file fo a given environment.
     "MyVal1": {
       "type": "string",
       "minLength": 1
@@ -41,6 +51,10 @@
       "type": "string",
       "minLength": 1
     },
+
+    // These parms are created by the resource manager template for websites. It sets up Application Insight
+    // and other things a typical website needs.
+
     "skuName": {
       "type": "string",
       "defaultValue": "F1",
