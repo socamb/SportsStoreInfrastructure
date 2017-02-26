@@ -37,6 +37,10 @@
       "type": "string",
       "minLength": 1
     },
+    "MyVal2": {
+      "type": "string",
+      "minLength": 1
+    },
     "skuName": {
       "type": "string",
       "defaultValue": "F1",
@@ -148,8 +152,8 @@
           },
           "properties": {
 
-            "MyVal1": "Setting1",
-            "Setting2": "Setting2"
+            "MyVal1": "[parameters('MyVal1')]",
+            "MyVal2": "[parameters('MyVal2')]"
           }
         }
       ]

@@ -3,7 +3,10 @@
     "contentVersion": "1.0.0.0",
   "parameters": {
       "MyVal1": {
-          "value": "My Val from Parm File"
+          "value": "My Val 1 from Parm File"
+      },
+      "MyVal2": {
+          "value": "My Val 2 from Parm File"
       }
   }
 }
