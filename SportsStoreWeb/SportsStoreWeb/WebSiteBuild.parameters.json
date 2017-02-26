@@ -1,0 +1,15 @@
+﻿{
+
+  // This is a parameter file for the Build Environment.
+
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "MyVal1": {
+      "value": "My Val 1 from Parm File - Build"
+    },
+    "MyVal2": {
+      "value": "My Val 2 from Parm File - Build"
+    }
+  }
+}
