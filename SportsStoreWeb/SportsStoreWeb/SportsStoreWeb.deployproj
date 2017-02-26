@@ -33,6 +33,7 @@
     <Content Include="WebSite.parameters.json" />
     <None Include="WebSiteBuild.parameters.json" />
     <None Include="WebSiteProduction.parameters.json" />
+    <None Include="WebSiteQA.parameters.json" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
