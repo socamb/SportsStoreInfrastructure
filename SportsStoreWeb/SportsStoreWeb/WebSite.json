@@ -1,5 +1,5 @@
 {
-  // This defines the website for the Sports Store Website.
+  // This defines the website for the Sports Store Website. It is provisioned in Team Services using a Release Pipeline.
   // There is a parameters file for each environment. Some of the parameters are set in the Release Pipeline.
 
 
