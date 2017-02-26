@@ -33,6 +33,10 @@
       "type": "string",
       "defaultValue": "DBPwdTBD"
     },
+    "MyVal1": {
+      "type": "string",
+      "minLength": 1
+    },
     "skuName": {
       "type": "string",
       "defaultValue": "F1",
@@ -144,7 +148,7 @@
           },
           "properties": {
 
-            "Setting1": "Setting1",
+            "MyVal1": "Setting1",
             "Setting2": "Setting2"
           }
         }
