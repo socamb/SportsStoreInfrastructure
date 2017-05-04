@@ -89,7 +89,7 @@
           }
         },
         {
-          "name": "SportsStore",
+          "name": "SomeDb",
           "type": "databases",
           "location": "[resourceGroup().location]",
           "apiVersion": "2014-04-01-preview",
@@ -97,7 +97,7 @@
             "[resourceId('Microsoft.Sql/servers', Parameters('dbServerName'))]"
           ],
           "tags": {
-            "displayName": "SportsStore"
+            "displayName": "SomeDb"
           },
           "properties": {
             "collation": "[parameters('Collation')]",
