@@ -1,8 +1,7 @@
 ﻿{
   //
-  // Defines a database server with no database for Sports Store Replication.
-  // The database is created when replication is configured.
-  // It is Provisioned in Team Services using a release pipeline.
+  // Defines a database server with a single database for Sports Store. It is Provisioned in Team Services using
+  // a release pipeline.
 
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
@@ -88,8 +87,25 @@
             "startIpAddress": "0.0.0.0",
             "endIpAddress": "0.0.0.0"
           }
+        },
+        {
+          "name": "SportsStore",
+          "type": "databases",
+          "location": "[resourceGroup().location]",
+          "apiVersion": "2014-04-01-preview",
+          "dependsOn": [
+            "[resourceId('Microsoft.Sql/servers', Parameters('dbServerName'))]"
+          ],
+          "tags": {
+            "displayName": "SportsStore"
+          },
+          "properties": {
+            "collation": "[parameters('Collation')]",
+            "edition": "[parameters('Edition')]",
+            "maxSizeBytes": "1073741824",
+            "requestedServiceObjectiveName": "[parameters('RequestedServiceObjectiveName')]"
+          }
         }
-
       ]
     }
   ],
