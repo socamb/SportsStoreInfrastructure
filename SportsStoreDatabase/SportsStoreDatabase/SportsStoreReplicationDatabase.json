@@ -1,27 +1,20 @@
 ﻿{
-  //
-  // Defines a database server with a single database for Sports Store. It is Provisioned in Team Services using
-  // a release pipeline.
 
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
 
-    // Defines the admin user for the database server. This is set in the Release Pipeline.
     "AdminLogin": {
       "type": "string",
       "defaultValue": "SSAdmin",
       "minLength": 1
     },
 
-    // Defines the admin passord for the database server. This is set and encrypted in the Release Pipeline.
     "AdminLoginPassword": {
       "type": "string",
       "defaultValue": "PasswordTBD"
     },
 
-    // Defines the unique database server name. It is added to the suffix of .database.windows.net and must be unique
-    // accross all of Azure.
     "DBServerName": {
       "type": "string",
       "defaultValue": "ServerNameTBD"
