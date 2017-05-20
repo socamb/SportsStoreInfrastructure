@@ -1,6 +1,7 @@
 {
   // This defines the website for the Sports Store Website. It is provisioned in Team Services using a Release Pipeline.
   // There is a parameters file for each environment. Some of the parameters are set in the Release Pipeline.
+  // V 1.0.0
 
 
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
