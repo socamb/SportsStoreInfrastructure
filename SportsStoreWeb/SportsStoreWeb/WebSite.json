@@ -1,5 +1,5 @@
 {
-  // This defines the website for the Sports Store Website. It is provisioned in Team Services using a Release Pipeline.
+  // This defines the website for Sports Store. It is provisioned in Team Services using a Release Pipeline.
   // There is a parameters file for each environment. Some of the parameters are set in the Release Pipeline.
   // V 1.0.0
 
@@ -42,7 +42,7 @@
       "defaultValue": "DBPwdTBD"
     },
 
-    // These parms are set in parametert files for each environment. The Release pileline selects the proper
+    // These parms are set in parameter files for each environment. The Release pileline selects the proper
     // file fo a given environment.
     "MyVal1": {
       "type": "string",
