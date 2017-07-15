@@ -30,7 +30,6 @@
     </None>
     <Content Include="Deploy-AzureResourceGroup.ps1" />
     <None Include="SportsStoreDatabase.json" />
-    <None Include="SportsStoreReplicationDatabase.json" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
