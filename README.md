@@ -1,23 +1,14 @@
 # Introduction
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.
+This repository contains the infrastructure source code for SportsStore. SportsStore is a hello world implementatyion for DevOps. Please see 
+[Roadmap To Agile DevOps Lab](http://roadmaptoagile.com/devops-lab-1) for details.
 
-Infrastructure stuff here. reference roadmap lab site and source code repo
+The application source is available [here](https://github.com/socamb/SportsStoreLab)
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
-
-Links. ?? More
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-Figure out how tytoo describe build and release pipelines. 
-
-Consider Import and Export.
+Please review the lab information in the above link to understand how this codebase is used in a DevOps Implementation.
+This is a Microsoft MVC5 solution based on the book [Pro ASP.NET MVC 5](http://www.apress.com/us/book/9781430265290) It contains the following projects:
+1.	one
+2.  two
 
 
 
