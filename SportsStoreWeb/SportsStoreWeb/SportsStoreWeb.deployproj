@@ -29,6 +29,7 @@
       <Visible>False</Visible>
     </None>
     <Content Include="Deploy-AzureResourceGroup.ps1" />
+    <Content Include="WebSiteDS.json" />
     <Content Include="WebSite.json" />
     <Content Include="WebSite.parameters.json" />
     <None Include="WebSiteBuild.parameters.json" />

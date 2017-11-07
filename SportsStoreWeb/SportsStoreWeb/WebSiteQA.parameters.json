@@ -10,6 +10,15 @@
     },
     "MyVal2": {
       "value": "My Val 2 from Parm File - QA"
+    },
+    "HostingPlanName": {
+      "value": "OcambSSBlueGreen"
+    },
+    "WebSiteName": {
+      "value": "OcambSSBlueGreenWeb"
+    },
+    "skuName": {
+      "value": "S1"
     }
   }
 }
